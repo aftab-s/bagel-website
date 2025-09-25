@@ -52,25 +52,21 @@ Built by developers, for developers. Join our growing community of infrastructur
 
 <div align="center">
   
-  ### 1️⃣ **Push Terraform Code**
-  <img src="./Logo/Bagel-v1.0.1-DarkMode.png" alt="Step 1" width="80"/>
-  
-  Push your Terraform infrastructure code to your GitHub repository
-  
-  ⬇️
-  
-  ### 2️⃣ **Connect Repository**
-  <img src="./Logo/Bagel-v1.0.1-DarkMode.png" alt="Step 2" width="80"/>
-  
-  Connect your GitHub repo to Bagel's intuitive platform
-  
-  ⬇️
-  
-  ### 3️⃣ **Deploy with One Click**
-  <img src="./Logo/Bagel-v1.0.1-DarkMode.png" alt="Step 3" width="80"/>
-  
-  Deploy your infrastructure seamlessly with our user-friendly interface
+```mermaid
+graph LR
+    A[📁 Push Code] --> B[🔗 Connect Repo] --> C[🚀 Deploy]
+```
 
+</div>
+
+| Step | Action | Description |
+|------|--------|-------------|
+| **1** | 📁 **Push Terraform Code** | Push your Terraform infrastructure code to your GitHub repository |
+| **2** | 🔗 **Connect Repository** | Connect your GitHub repo to Bagel's intuitive platform |  
+| **3** | 🚀 **Deploy with One Click** | Deploy your infrastructure seamlessly with our user-friendly interface |
+
+<div align="center">
+  <em>Three simple steps to get from code to cloud ☁️</em>
 </div>
 
 ## 📊 Community Stats

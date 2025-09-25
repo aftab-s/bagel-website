@@ -1,7 +1,7 @@
 # 🥯 Bagel
 
 <div align="center">
-  <img src="./Logo/Bagel-v1.0.1-LightMode.png" alt="Bagel Logo" width="200"/>
+  <img src="./Logo/Bagel-v1.0.1-DarkMode.png" alt="Bagel Logo" width="200"/>
   
   ### Provision Cloud Infrastructure, The Easy Way
   
@@ -92,7 +92,7 @@ Just like a master baker perfecting their craft, we've carefully designed each f
 > — The Bagel Team
 
 <div align="center">
-  <img src="./Logo/Bagel-v1.0.1-LightMode.png" alt="Artisanal Quality" width="150"/>
+  <img src="./Logo/Bagel-v1.0.1-DarkMode.png" alt="Artisanal Quality" width="150"/>
   <p><em>Artisanal quality, industrial strength</em></p>
 </div>
 

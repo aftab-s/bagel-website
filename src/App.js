@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import Features from './components/Features';
 import Showcase from './components/Showcase';
+import Team from './components/Team';
 import OpenSource from './components/OpenSource';
 import Footer from './components/Footer';
 
@@ -35,6 +36,7 @@ function App() {
       <HowItWorks />
       <Features />
       <Showcase />
+      <Team />
       <OpenSource />
       <Footer />
     </div>

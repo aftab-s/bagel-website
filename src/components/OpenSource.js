@@ -4,36 +4,42 @@ import { Github, Star, GitFork, Heart, ExternalLink } from 'lucide-react';
 const OpenSource = () => {
   return (
     <section id="open-source" className="py-20 px-4 sm:px-6 lg:px-8 relative">
-      {/* Background Pattern - Subtle wheat stalks */}
-      <div className="absolute inset-0 opacity-1 dark:opacity-2">
-        <svg className="w-full h-full" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="wheatPattern" x="0" y="0" width="80" height="120" patternUnits="userSpaceOnUse">
-              {/* Wheat stalk 1 */}
-              <path d="M20 20 Q22 35 20 50 Q18 65 20 80 Q22 95 20 110" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.15"/>
-              <ellipse cx="20" cy="25" rx="1.5" ry="3" fill="currentColor" opacity="0.1"/>
-              <ellipse cx="20" cy="35" rx="1.5" ry="3" fill="currentColor" opacity="0.1"/>
-              <ellipse cx="20" cy="45" rx="1.5" ry="3" fill="currentColor" opacity="0.1"/>
-              <ellipse cx="20" cy="55" rx="1.5" ry="3" fill="currentColor" opacity="0.1"/>
-              <ellipse cx="20" cy="65" rx="1.5" ry="3" fill="currentColor" opacity="0.1"/>
-              
-              {/* Wheat stalk 2 */}
-              <path d="M60 40 Q58 55 60 70 Q62 85 60 100 Q58 115 60 130" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.12"/>
-              <ellipse cx="60" cy="45" rx="1.5" ry="3" fill="currentColor" opacity="0.08"/>
-              <ellipse cx="60" cy="55" rx="1.5" ry="3" fill="currentColor" opacity="0.08"/>
-              <ellipse cx="60" cy="65" rx="1.5" ry="3" fill="currentColor" opacity="0.08"/>
-              <ellipse cx="60" cy="75" rx="1.5" ry="3" fill="currentColor" opacity="0.08"/>
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#wheatPattern)" />
-        </svg>
+      {/* Subtle bagel background elements */}
+      <div className="absolute inset-0 opacity-2 dark:opacity-3">
+        {/* Large bagel */}
+        <div className="absolute top-1/4 left-1/6">
+          <svg width="160" height="160" viewBox="0 0 160 160" className="text-warm-yellow/10">
+            <circle cx="80" cy="80" r="70" fill="currentColor" />
+            <circle cx="80" cy="80" r="35" fill="none" stroke="currentColor" strokeWidth="8" opacity="0.6" />
+            <circle cx="65" cy="65" r="3" fill="currentColor" opacity="0.8" />
+            <circle cx="95" cy="75" r="2.5" fill="currentColor" opacity="0.7" />
+            <circle cx="85" cy="95" r="2" fill="currentColor" opacity="0.6" />
+            <circle cx="70" cy="95" r="2.5" fill="currentColor" opacity="0.7" />
+          </svg>
+        </div>
+        
+        {/* Medium bagel */}
+        <div className="absolute bottom-1/3 right-1/5">
+          <svg width="128" height="128" viewBox="0 0 128 128" className="text-golden-brown/10">
+            <circle cx="64" cy="64" r="56" fill="currentColor" />
+            <circle cx="64" cy="64" r="28" fill="none" stroke="currentColor" strokeWidth="6" opacity="0.6" />
+            <circle cx="52" cy="52" r="2.5" fill="currentColor" opacity="0.8" />
+            <circle cx="76" cy="60" r="2" fill="currentColor" opacity="0.7" />
+            <circle cx="68" cy="76" r="1.5" fill="currentColor" opacity="0.6" />
+          </svg>
+        </div>
+        
+        {/* Small bagel */}
+        <div className="absolute top-2/3 left-1/3">
+          <svg width="96" height="96" viewBox="0 0 96 96" className="text-warm-yellow/10">
+            <circle cx="48" cy="48" r="42" fill="currentColor" />
+            <circle cx="48" cy="48" r="21" fill="none" stroke="currentColor" strokeWidth="5" opacity="0.6" />
+            <circle cx="39" cy="39" r="2" fill="currentColor" opacity="0.8" />
+            <circle cx="57" cy="45" r="1.5" fill="currentColor" opacity="0.7" />
+            <circle cx="51" cy="57" r="1.5" fill="currentColor" opacity="0.6" />
+          </svg>
+        </div>
       </div>
-
-      {/* Floating bread crumbs */}
-      <div className="absolute top-20 left-1/4 w-2 h-2 bg-warm-yellow rounded-full opacity-5 animate-bounce-subtle"></div>
-      <div className="absolute top-1/3 right-1/3 w-3 h-3 bg-golden-brown rounded-full opacity-4 animate-bounce-subtle" style={{ animationDelay: '2s' }}></div>
-      <div className="absolute bottom-1/4 left-1/6 w-1.5 h-1.5 bg-warm-yellow rounded-full opacity-6 animate-bounce-subtle" style={{ animationDelay: '4s' }}></div>
-      <div className="absolute top-1/2 right-1/4 w-2.5 h-2.5 bg-golden-brown rounded-full opacity-3 animate-bounce-subtle" style={{ animationDelay: '1s' }}></div>
 
       <div className="max-w-7xl mx-auto relative">
         

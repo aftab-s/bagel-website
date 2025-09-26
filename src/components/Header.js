@@ -26,6 +26,9 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             <a href="#showcase" className="text-neutral-gray dark:text-cream hover:text-warm-yellow transition-colors">
               Showcase
             </a>
+            <a href="#team" className="text-neutral-gray dark:text-cream hover:text-warm-yellow transition-colors">
+              Team
+            </a>
             <a href="#open-source" className="text-neutral-gray dark:text-cream hover:text-warm-yellow transition-colors">
               Open Source
             </a>
